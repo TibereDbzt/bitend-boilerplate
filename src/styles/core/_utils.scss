@@ -1,0 +1,11 @@
+.smooth-scroll-root {
+    @include cover;
+    position: fixed;
+    overflow: hidden;
+}
+
+.smooth-scroll-container {
+    @include cover;
+    position: absolute;
+    will-change: transform;
+}

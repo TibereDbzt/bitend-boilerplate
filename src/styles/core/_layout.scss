@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+    min-height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper {
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+    padding: 32px;
+}
+
+.section {
+    margin-top: 128px;
+
+    &:first-of-type {
+        margin-bottom: 0;
+    }
+}
